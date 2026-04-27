@@ -410,7 +410,7 @@ body::-webkit-scrollbar{
   opacity:.7;
 }
 
-/* ANIMAÇÃO */
+
 
 .fade-up{
   opacity:0;
@@ -423,7 +423,6 @@ body::-webkit-scrollbar{
   transform:translateY(0);
 }
 
-/* TABLET */
 
 @media(max-width:1024px){
   .article-layout{
@@ -450,7 +449,7 @@ body::-webkit-scrollbar{
   }
 }
 
-/* MOBILE */
+
 
 @media(max-width:768px){
   .site-header{
