@@ -138,11 +138,11 @@ background:url('https://images.unsplash.com/photo-1470337458703-46ad1756a187') c
 }
 
 .contraceptivo{
-background:url('https://images.unsplash.com/photo-1580281657527-47d1d45b8c0c') center/cover;
+background:url('https://drapriscilamatsuoka.com.br/wp-content/uploads/2018/12/metodos-contraceptivos-para-evitar-gravidez.jpg') center/cover;
 }
 
 .gineco{
-background:url('https://images.unsplash.com/photo-1584515933487-779824d29309') center/cover;
+background:url('https://odoutor.com.br/wp-content/uploads/2023/07/odoutor-saude-feminina-1-1024x885.jpg.webp') center/cover;
 }
 
 
@@ -473,11 +473,11 @@ font-size:22px;
 
 }
 .vicaricidio{
-  background:url('https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=1200&q=80') center/cover;
+  background:url('https://radioprogresso.com.br/wp-content/uploads/2026/04/mg_6464-1.webp') center/cover;
 }
 
 .pascoa{
-  background:url('https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=900&q=80') center/cover;
+  background:url('https://www.estadao.com.br/recomenda/wp-content/uploads/2024/03/ovodepascoa2capa.jpg.webp') center/cover;
 }
 
 .materna{
@@ -485,13 +485,215 @@ font-size:22px;
 }
 
 .menstrual{
-  background:url('https://images.unsplash.com/photo-1600959907703-125ba1374a12?auto=format&fit=crop&w=900&q=80') center/cover;
+  background:url('https://portal.wemeds.com.br/wp-content/uploads/2024/05/Saude-Menstrual.png') center/cover;
 }
 
 .feminicidio{
-  background:url('https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=1200&q=80') center/cover;
+  background:url('https://spbancarios.com.br/sites/default/files/styles/max_1300x1300/public/destaques/2024-11/site-violencia-mulheres.png?itok=SFotL1Xb') center/cover;
 }
 
 .janeiro{
   background:url('https://seconci.rio/wp-content/uploads/2025/01/janeiro_branco.jpg') center/cover;
+
+}
+
+
+html,
+body{
+  width:100%;
+  overflow-x:hidden;
+}
+
+img{
+  max-width:100%;
+}
+
+
+@media(max-width:1100px){
+
+  .edition-hero{
+    height:62vh;
+    min-height:520px;
+    padding:0 6%;
+  }
+
+  .hero-content h1{
+    font-size:54px;
+    line-height:1.08;
+  }
+
+  .edition-container{
+    padding:70px 6%;
+  }
+
+  .edition-grid{
+    grid-template-columns:1fr 1fr;
+    grid-auto-rows:250px;
+    gap:20px;
+  }
+
+  .big{
+    grid-row:span 1;
+  }
+
+  .wide{
+    grid-column:span 2;
+  }
+
+  .footer-top{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media(max-width:768px){
+
+  .site-header{
+    padding:22px 5%;
+    justify-content:center;
+  }
+
+  .header-nav{
+    display:none;
+  }
+
+  .logo{
+    font-size:30px;
+  }
+
+  .edition-hero{
+    height:58vh;
+    min-height:460px;
+    padding:0 5%;
+  }
+
+  .hero-content{
+    max-width:100%;
+  }
+
+  .hero-content span{
+    font-size:12px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+  }
+
+  .hero-content h1{
+    font-size:40px;
+    line-height:1.08;
+    margin:16px 0;
+  }
+
+  .hero-content p{
+    font-size:16px;
+    line-height:1.65;
+  }
+
+  .edition-container{
+    padding:60px 5%;
+  }
+
+  .section-title{
+    font-size:36px;
+    line-height:1.1;
+  }
+
+  .section-sub{
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:32px;
+  }
+
+  .edition-grid{
+    grid-template-columns:1fr;
+    grid-auto-rows:auto;
+    gap:18px;
+  }
+
+  .card,
+  .big,
+  .wide{
+    grid-column:span 1;
+    grid-row:span 1;
+    min-height:270px;
+    border-radius:20px;
+    padding:22px;
+  }
+
+  .card-content h3{
+    font-size:27px;
+    line-height:1.15;
+  }
+
+  .card-content p{
+    font-size:14px;
+    line-height:1.55;
+  }
+
+  .footer-premium{
+    padding:60px 5% 35px;
+  }
+
+  .footer-top{
+    grid-template-columns:1fr;
+    gap:28px;
+  }
+}
+
+@media(max-width:420px){
+
+  .edition-hero{
+    height:54vh;
+    min-height:420px;
+  }
+
+  .hero-content h1{
+    font-size:34px;
+  }
+
+  .section-title{
+    font-size:32px;
+  }
+
+  .card,
+  .big,
+  .wide{
+    min-height:240px;
+  }
+
+  .card-content h3{
+    font-size:24px;
+  }
+}
+
+
+@media(min-width:1400px){
+
+  .edition-hero{
+    height:64vh;
+    max-height:760px;
+  }
+
+  .hero-content h1{
+    font-size:58px;
+  }
+
+  .edition-container{
+    padding:75px 8%;
+  }
+
+  .edition-grid{
+    grid-auto-rows:235px;
+    gap:20px;
+  }
+
+  .card-content h3{
+    font-size:26px;
+  }
+
+  .big{
+    grid-row:span 2;
+  }
+
+  .wide{
+    grid-column:span 2;
+  }
 }
